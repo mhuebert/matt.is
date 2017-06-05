@@ -1,0 +1,94 @@
+@import '../../node_modules/tachyons/css/tachyons';
+@import './atom-one-light.css';
+
+//@import '../../node_modules/prosemirror-view/style/prosemirror';
+//@import '../../node_modules/@material/animation/mdc-animation';
+
+
+.shadow-5 {
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+}
+.serif {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+}
+
+.blue-links {
+  a, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  a.no-blue:hover {
+    text-decoration: underline;
+  }
+  a:not(.no-blue) {
+    color: inherit;
+    box-shadow: inset 0 -3px 0 #f4f4f4, inset 0 -8px 0px #cbe8ff;
+    box-shadow: inset 0 -3px 0 var(--bg-color, #fff), inset 0 var(--text-underline-offset, -8px) 0px #cbe8ff;
+    &:hover {
+      background: #cbe8ff;
+      text-decoration: none;
+    }
+  }
+}
+.bg-near-white {
+  --bg-color: #f4f4f4;
+}
+.bg-light-gray {
+  --bg-color: #eee;
+}
+.bg-white {
+  --bg-color: #fff;
+}
+.f4 {
+  --text-underline-offset: -8px;
+}
+
+.markdown-it {
+  code {
+    font-size: 80%;
+    background: rgba(0,0,0,0.03);
+  }
+  pre code {
+    padding: 0.5rem;
+    display: block;
+  }
+
+  blockquote {
+    border-left: 6px solid #ddd;
+    padding-left: 1rem;
+    margin-left: 0;
+    opacity: 0.6;
+  }
+}
+
+@for $i from 1 through 10 {
+  .b--darken-#{$i} {
+    border-color: rgba(0, 0, 0, 0.025 * $i);
+  }
+}
+
+.lh-0 {
+  line-height: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  font-weight: 400;
+  font-family: 'Vollkorn', georgia, times, serif;
+  margin: 1rem 0;
+  &:hover a.heading-anchor {
+    opacity: 1 !important;
+  }
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.zoom-in {
+  cursor: zoom-in;
+}

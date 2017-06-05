@@ -1,0 +1,21 @@
+
+# Kurt Cobain on Time
+
+**The following is an excerpt** from the [Journals of Kurt Cobain](http://www.amazon.com/Journals-Kurt-Cobain/dp/157322359X). Formatting and punctuation have been edited for clarity.
+
+[![View in Original Size](/images/posts/Kurt-Cobain-on-Time.jpg)](/images/posts/Kurt-Cobain-on-Time-Large.jpg)
+
+> In movies, the filmmaker tries to depict true life instances.  The most interesting occurrences during the subject's time frame are picked out of a span of time.  Time is much longer than a movie can show and viewer will have the patience for.  Therefore, we don't realize how time plays such a gigantic part in the leading-up-to events.  Two people may have dinner for 2 hours, but only 30 seconds of the most interesting parts of the conversation will be used.
+>
+> I feel time and a person's ability to understand time is very important.  It's the only way I can relate to you the very real way a person becomes addicted to substances. If we realize and remember things happen over a period of time, then we may understand how almost everyone who tries hard drugs (i.e. heroin and cocaine) will eventually become literally a slave to these substances.
+>
+> I remember someone saying 'If you try heroin once you'll become hooked.'  Of course I laughed and scoffed at the idea.  But I now believe this to be very true. Not literally, I mean if you do dope once you don't instantly become addicted.  It usually takes about one month of everyday use to physically become addicted.  But after the first time, your mind says 'ahh that was very pleasant, as long as I don't do it every day I won't have a problem'.
+>
+> The problem is it happens over time.  Let's start with January 1st.  Let's do dope for the first time.  Consciously, you won't do it again for maybe a month.  February you'll do it twice.  March, 3 days in a row.  February, 3 days in a row and once more at the end of the month.  March maybe not at all.  April 5 days in a row, skip 3, once more.  May 10 days in a row.  During those ten days, it's very easy to lose track of time.  It may seem like 3 days but two weeks can go by.  The effects are still pleasant, and you can still choose what days you do it, so naturally there must not be a problem.
+>
+> With everyone, sometime at least once a year some sort of crisis happens to everyone.  The loss of a friend or mate or relative - this is when the drug tells you to say fuck it.
+>
+> Every drug addict has said fuck it more times than they can count.  This example has only taken one page, but within a year of casual heroin use the person has had more days off dope than on.  It can slowly and gradually consume you, because there are 24 hours in a day, and no one wants to be hooked.  It doesn't happen as fast as it does in a movie, because a movie quickly has to show all the juicy stuff within 2 hours.  Two hours out of 2 years worth of casual drug use is nothing.  By the time you've said fuck it, the long process of trying to stay off begins.  The first kick is usually easy if you have pills.  You basically sleep; which is bad in my opinion, because you think if it's that easy I could get hooked and kick for the rest of my life.  By the second and third time it becomes very different.  It takes sometimes 5 times longer.  The psychological factors have set in, and are as damaging as the physical effects.  Every time you kick, as time goes by, it gets more uncomfortable.  Even the most needle phobic person can crave the relief of putting a syringe in their arm.  People have been known to shoot water, booze, mouthwash, etc.  Drug use is escapism whether you want to admit it or not.  A person may have spent months, years trying to get help.  But the amount of time one spends trying to get help, and the years it takes to become completely drug free, is nothing in comparison.  Every junkie I've ever met has fought with it at least 5 years, and must end up fighting for about 15 -25 years until finally they have to resort to becoming a slave to another drug; the 12-step program, which is in itself another drug/religion. If it works for you, do it.  If your ego is too big, start at square one and go to the psychological rehabilitative way.  Either way, you've got at least 5 to 10 years of battle ahead of you.
+>
+
+View the [original scanned image](/images/posts/Kurt-Cobain-on-Time-Large.jpg).
