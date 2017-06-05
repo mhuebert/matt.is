@@ -47,7 +47,8 @@
   {:life/did-update scroll-to-anchor
    :life/did-mount  scroll-to-anchor}
   [{:keys [view/props]} s]
-  [:.markdown-it.lh-copy (assoc props :dangerouslySetInnerHTML {:__html (.render MD s)})])
+  [:.markdown-it.lh-copy (assoc props :dangerouslySetInnerHTML {:__html (try (.render MD s)
+                                                                             (catch js/Error e s))})])
 
 (defview remote
   {:life/will-mount         #(.fetch %)

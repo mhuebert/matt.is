@@ -103,7 +103,7 @@
                        {:href  website
                         :icon  icons/Link
                         :label (string/replace website #"https://(.*)" "$1")}))]]
-     (when intro [:.mb2.o-70.lh-copy.mw6.nt3.nb2 (md/md intro)])]))
+     (when intro [:.mb2.o-70.lh-copy.mw6.nt3.nb2  (md/md intro)])]))
 
 
 (defview home

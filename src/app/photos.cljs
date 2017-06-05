@@ -39,11 +39,11 @@
                            (= current-target (aget % "target" "parentNode"))
                            (classes/has (aget % "target") ".fixed-content-close")))
                  (on-close))
-    :style    {:background-color "rgba(255,255,255,0.85)"
+    :style    {:background-color "rgba(255,255,255,0.95)"
                :overflow-y       "auto"}}
    [:.mw8.center-l.w-100.ph3
     {:style {:max-height "100%"}}
-    [:shadow-4.border-box.relative
+    [:.border-box.relative
      {:class "bg-white b--light-gray"}
      content]]])
 
@@ -70,42 +70,44 @@
                                                                :index (inc index)
                                                                :advancing? nil)) 300))))]
     (cond->>
-      [:.mv3.overflow-hidden
-       [:.flex
-        {:style {:width       "300%"
-                 :transition  (when-not (nil? advancing?) "margin-left 0.3s ease-in-out")
-                 :margin-left (case advancing?
-                                nil "-100%"
-                                -1 0
-                                1 "-200%")}}
-        [:.w-third (when back
-                     [:img.w-100 {:src (link (nth photos (dec (:index @state))))}])]
-        [:.w-third
-         [:img.w-100 {:src           (link filename)
-                      :on-mouse-down (if-not expanded?
-                                       #(swap! state assoc :expanded? true)
-                                       forward)
-                      :style {:cursor (cond (not expanded?) "zoom-in"
-                                            forward "e-resize"
-                                            :else nil)}}]]
-        [:.w-third (when forward
-                     [:img.w-100 {:src (link (nth photos (inc (:index @state))))}])]]
-       [:.flex.relative
-        [:.absolute.top-0.right-0
+      [:div
+       [:.mv3.overflow-hidden.relative.shadow-4.lh-0
+        [:.absolute.top-0.right-0.z-1.white.o-50.pa2.hover-o-90
          {:on-click #(swap! state update :expanded? not)}
          (-> (if expanded? icons/Close icons/ArrowExpand)
              (icons/class "fixed-content-close pointer")
              (icons/size 30))]
+        [:div
+         {:style {:width         "300%"
+                  :transition    (when-not (nil? advancing?) "margin-left 0.3s ease-in-out")
+                  :margin-bottom -1
+                  :margin-left   (case advancing?
+                                   nil "-100%"
+                                   -1 0
+                                   1 "-200%")}}
+         [:.dib.w-third (when back
+                          [:img.w-100 {:src (link (nth photos (dec (:index @state))))}])]
+         [:.dib.w-third.relative
+          [:img.w-100 {:src           (link filename)
+                       :on-mouse-down (if-not expanded?
+                                        #(swap! state assoc :expanded? true)
+                                        forward)
+                       :style         {:cursor (cond (not expanded?) "zoom-in"
+                                                     forward "e-resize"
+                                                     :else nil)}}]]
+         [:.dib.w-third (when forward
+                          [:img.w-100 {:src (link (nth photos (inc (:index @state))))}])]]]
+       [:.flex.relative
         [:.flex-auto]
         (-> icons/ArrowBack
-            (icons/size 36)
+            (icons/size 40)
             (update 1 merge (if back
                               {:on-mouse-down back
                                :class         "pointer"}
                               {:class "moon-gray"})))
 
         (-> (icons/style icons/ArrowBack {:transform "rotate(180deg)"})
-            (icons/size 36)
+            (icons/size 40)
             (update 1 merge (if forward
                               {:on-mouse-down forward
                                :class         "pointer "}
